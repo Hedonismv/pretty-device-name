@@ -1,15 +1,22 @@
 {
   "name": "pretty-device-name",
   "version": "1.0.0",
-  "description": "",
+  "description": "This library can easily extract prettier device name",
   "main": "dist/index.js",
   "scripts": {
     "test": "jest --detectOpenHandles",
     "build": "tsc"
   },
-  "typings": "index.d.ts",
-  "keywords": [],
-  "author": "Vitale Hedo",
+  "keywords": ["device name", "os", "nodejs", "pretty names", "electron"],
+  "author": "Vitale Hedo <https://twitter.com/hedonismatall>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hedonismv/pretty-device-name.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Hedonismv/pretty-device-name/issues"
+  },
+  "homepage": "https://github.com/Hedonismv/pretty-device-name#readme",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.3",
