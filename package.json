@@ -1,19 +1,15 @@
 {
   "name": "pretty-device-name",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This library can easily extract prettier device name",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "typings": "index.d.ts",
   "scripts": {
     "test": "jest --detectOpenHandles",
     "build": "npx tsc"
   },
   "files": [
-    "dist",
-    "src",
-    "index.d.ts",
-    "tsconfig.json"
+    "/dist"
   ],
   "keywords": ["device name", "os", "nodejs", "pretty names", "electron"],
   "author": "Vitale Hedo <https://twitter.com/hedonismatall>",
