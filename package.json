@@ -7,7 +7,7 @@
   "typings": "index.d.ts",
   "scripts": {
     "test": "jest --detectOpenHandles",
-    "build": "tsc"
+    "build": "npx tsc"
   },
   "files": [
     "dist",
