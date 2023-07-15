@@ -10,7 +10,7 @@ npm install pretty-device-name
 ## Usage
 
 ```ts
-import getDeviceName from "pretty-device-name"
+import {getDeviceName} from "pretty-device-name"
 
 const deviceName = getDeviceName()
 // returns Hedo's MacBook Pro
